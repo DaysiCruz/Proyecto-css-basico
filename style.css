@@ -45,3 +45,60 @@ html {
     max-width: 40rem;
     object-fit: fill;
 }
+.services {
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 4rem 2rem 0 2rem;
+}
+.services h2 {
+    margin-bottom: 2.4rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.dishes {
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    'a a b c'
+    'a a d e';
+    gap: 2.4rem;
+}
+.dishes-video {
+    grid-area: a;
+}
+.dishes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px 0.2px rgba(78, 78, 78, 0.24);
+}
+.menues {
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 4rem 2rem 0 2rem;
+    margin-bottom: 5rem;
+}
+.menues h2 {
+    margin-bottom: 2.4rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.menu {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    gap: 2rem;
+}
+.menu img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px 0 16px 0;
+    background: rgb(119, 37, 37);
+}
+
